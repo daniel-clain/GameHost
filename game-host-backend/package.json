@@ -1,0 +1,19 @@
+{
+  "name": "game-host-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --exec ts-node --transpileOnly src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "game-host-shared": "1.0.0",
+    "socket.io": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/socket.io": "^3.0.2",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}

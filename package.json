@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "game-host-backend",
+    "game-host-frontend",
+    "game-host-shared"
+  ],
+  "scripts": {
+    "dev:backend": "yarn workspace game-host-backend dev",
+    "dev:frontend": "yarn workspace game-host-frontend dev",
+    "dev": "concurrently \"yarn dev:backend\" \"yarn dev:frontend\"",
+    "build": "yarn workspace game-host-backend build && yarn workspace game-host-frontend build",
+    "publish": "yarn build && npm publish"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}

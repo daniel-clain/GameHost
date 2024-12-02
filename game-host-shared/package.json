@@ -1,0 +1,16 @@
+{
+  "name": "game-host-shared",
+  "version": "1.0.0",
+  "main": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}

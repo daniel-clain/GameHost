@@ -1,0 +1,5 @@
+node_modules/
+game-host-backend/node_modules/
+game-host-frontend/node_modules/
+game-host-backend/dist/
+game-host-frontend/dist/
